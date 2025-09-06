@@ -20,25 +20,6 @@ public class Solution
             return;
         }
 
-        if (m == 1 && n == 1)
-        {
-            var result = new int[2];
-            if (nums1[0] > nums2[0])
-            {
-                result[0] = nums2[0];
-                result[1] = nums1[0];
-            }
-            else
-            {
-                result[0] = nums1[0];
-                result[1] = nums2[0];
-            }
-
-            nums1[0] = result[0];
-            nums1[1] = result[1];
-            return;
-        }
-
         while (rBound >= 0)
         {
             if (s2Bound < 0)
