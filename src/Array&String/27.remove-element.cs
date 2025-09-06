@@ -17,7 +17,6 @@ public class Solution
                 nums[k++] = nums[i]; //ko quan trọng order
             }
         }
-
         return k;
     }
 }
